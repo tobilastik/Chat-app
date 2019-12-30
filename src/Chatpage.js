@@ -27,7 +27,7 @@ const useStyles = makeStyles (theme => ({
   chatPage: {
     width: '70%',
     padding: '20px',
-    height: '300px',
+    height: '400px',
   },
   chatBox: {
     width: '85%',
@@ -61,7 +61,7 @@ export default function Chatpage () {
         <div className={classes.chatFlex}>
           <div className={classes.topicPage}>
             <List>
-              {['topic'].map (topic => (
+              {['Whatsapp Group Chat'].map (topic => (
                 <ListItem key={topic} button>
                   <ListItemText primary={topic} />
                 </ListItem>
@@ -71,7 +71,7 @@ export default function Chatpage () {
           </div>
           <div className={classes.chatPage}>
 
-            {[{from: 'user', msg: 'hello'}].map ((chat, i) => (
+            {[{from: 'Tobi', msg: 'App in progress'}].map ((chat, i) => (
               <div className={classes.chatFlex} key={i}>
                 <Chip label={chat.from} className={classes.chip} />
                 <Typography variant="p">
