@@ -1,10 +1,10 @@
+import Chatpage from './components/Chatpage';
 import './App.css';
+import Sidebar from './components/Sidebar';
 import React from 'react';
 import {makeStyles} from '@material-ui/core/styles';
+import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
-import Sidebar from './components/Sidebar';
-import Chatpage from './components/Chatpage';
-import '../src/';
 
 const useStyles = makeStyles (theme => ({
   root: {
@@ -24,13 +24,14 @@ export default function App () {
     <div className={classes.root}>
       <Grid container spacing={3}>
         <Grid item xs={4}>
+
           <Sidebar />
         </Grid>
-        <Grid item xs={8}>
-          <Chatpage />
+        <Grid item xs>
+          <Paper className={classes.paper}>xs</Paper>
         </Grid>
-
       </Grid>
+
     </div>
   );
 }

@@ -10,16 +10,20 @@
   border-radius: 25px;
 }
 
+.sidebar {
+  width: 100%;
+}
 .sidebar-header {
   background-color: #ededed;
   padding: 5px;
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 
 .sidebar-icon {
   color: #7f868a;
-  font-size: 25px;
+  font-size: 20px;
   margin: 10px;
-  padding-left: 200px;
+  /* padding-left: 200px; */
 }
