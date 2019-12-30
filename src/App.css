@@ -8,6 +8,7 @@
   height: 50px;
   width: 50px;
   border-radius: 25px;
+  margin: 3px;
 }
 
 .sidebar {
@@ -24,5 +25,62 @@
 .sidebar-icon {
   color: #7f868a;
   font-size: 20px;
+  margin: 20px;
+}
+.search-bar {
+  background-color: white;
+  padding: 10px;
+  border-style: none;
+  border-radius: 20px;
+  width: 90%;
+  outline-style: none;
+}
+
+.search-container {
+  background-color: #f8f8f8;
+  text-align: center;
+  padding: 6px;
+  width: 100%;
+}
+
+li {
+  list-style-type: none;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
   margin: 10px;
+  border-bottom: 0.6px solid lightgray;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 100%;
+}
+.contact-msg {
+  display: grid;
+  flex-direction: column;
+  margin: 3px;
+  width: 100%;
+  font-size: 15px;
+}
+.contact-time {
+  position: relative;
+  margin-left: 100px;
+  right: 1px;
+  font-size: 12px;
+}
+.left-header {
+  width: 93%;
+  /* border-right-style: solid; */
+  /* border-right: 0.6px solid lightgray; */
+  /* border-radius: 20px; */
+  /* padding: 20px; */
+}
+
+.chat-page {
+  width: 100%;
+  max-height: max-content;
+  background-color: lightgray;
 }

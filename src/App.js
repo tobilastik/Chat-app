@@ -22,13 +22,13 @@ export default function App () {
 
   return (
     <div className={classes.root}>
-      <Grid container spacing={3}>
+      <Grid container spacing={0}>
         <Grid item xs={4}>
 
           <Sidebar />
         </Grid>
         <Grid item xs>
-          <Paper className={classes.paper}>xs</Paper>
+          <Chatpage />
         </Grid>
       </Grid>
 
