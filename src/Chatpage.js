@@ -25,7 +25,7 @@ const useStyles = makeStyles (theme => ({
     borderRight: '1px solid grey',
   },
   chatPage: {
-    width: '70%',
+    width: '80%',
     padding: '20px',
     height: '400px',
   },
