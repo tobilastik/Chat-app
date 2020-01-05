@@ -30,6 +30,7 @@ export default function SendMessage (props) {
           input = node;
         }}
       />
+
       <Button variant="contained" className={classes.button} color="primary">
         Send
       </Button>
